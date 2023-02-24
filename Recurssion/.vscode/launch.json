@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch linearly_1_to_n",
+            "request": "launch",
+            "mainClass": "linearly_1_to_n",
+            "projectName": "Recurssion_7dbe0f1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch nthfibbonum",
+            "request": "launch",
+            "mainClass": "nthfibbonum",
+            "projectName": "Recurssion_7dbe0f1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindrom",
+            "request": "launch",
+            "mainClass": "palindrom",
+            "projectName": "Recurssion_7dbe0f1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch print_string_n_times",
+            "request": "launch",
+            "mainClass": "print_string_n_times",
+            "projectName": "Recurssion_7dbe0f1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch reversearray",
+            "request": "launch",
+            "mainClass": "reversearray",
+            "projectName": "Recurssion_7dbe0f1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch sub",
+            "request": "launch",
+            "mainClass": "sub",
+            "projectName": "Recurssion_7dbe0f1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch subsequenceofsumk",
+            "request": "launch",
+            "mainClass": "subsequenceofsumk",
+            "projectName": "Recurssion_7dbe0f1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch subsequences",
+            "request": "launch",
+            "mainClass": "subsequences",
+            "projectName": "Recurssion_7dbe0f1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumoffirstnnum",
+            "request": "launch",
+            "mainClass": "sumoffirstnnum",
+            "projectName": "Recurssion_7dbe0f1b"
+        }
+    ]
+}
