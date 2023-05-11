@@ -53,6 +53,17 @@ public class diameter_of_tree {
         return new Info(diam, ht);
 
     }
+    public static void KthLevel(Node root, int level, int k){
+        if(root==null){
+            return;
+        }
+        if(level==k){
+            System.out.println(root.data);
+            return;
+        }
+        KthLevel(root.left, level+1, k);
+        KthLevel(root.right, level+1, k);
+    }
 
     public static void main(String[] args) {
         
@@ -64,7 +75,8 @@ public class diameter_of_tree {
         root.left.right = new Node(5);
         root.right.left = new Node(6);
         root.right.right = new Node(7);
-        System.out.println(diameter(root).diam);
+        // System.out.println(diameter(root).diam);
+        KthLevel(root, 1, 3);
 
     }
 }

@@ -55,7 +55,7 @@ public class N_Queens {
 
     public static void main(String[] args) {
         
-        char chessboard[][] = new char[6][6];
+        char chessboard[][] = new char[3][3];
 
         for (int i = 0; i < chessboard.length; i++) {
             for (int j = 0; j < chessboard.length; j++) {
